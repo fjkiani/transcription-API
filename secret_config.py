@@ -6,6 +6,6 @@ class LoadSecrets:
 
     @staticmethod
     def load_secret():
-        key = "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"
+        key = "#"
         os.environ['OPENAI_API_KEY'] = key
         print("Secrets loaded")
