@@ -14,12 +14,14 @@ bash
 Copy code
 cd transcription-api
 Follow any additional installation steps, such as setting up a virtual environment or installing dependencies.
+
 Usage
 Training
 Run the training script:
 Copy code
 python train.py
 Transcribing
+
 To transcribe an audio file, use the bot.py script.
 To download a transcript, use the download_transcript.py script.
 Files and Directories
@@ -28,5 +30,6 @@ download_transcript.py: Uses AssemblyAI to transcribe audio content and save it 
 train.py: Demonstrates setting up a document retrieval system using pre-trained embeddings and vector-based similarity searches. View train.py
 secret_config.py: Manages loading of secrets like API keys for secure communication. View secret_config.py
 transcript_folder/: Directory containing sample transcripts.
+
 Contributing
 If you're interested in contributing to the Transcription API project, please follow the provided guidelines.
