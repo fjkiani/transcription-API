@@ -26,7 +26,11 @@ To transcribe an audio file, use the bot.py script.
 To download a transcript, use the download_transcript.py script.
 Files and Directories
 bot.py: Sets up a conversational bot utilizing OpenAI for natural language processing and Gradio for the user interface. View bot.py
-download_transcript.py: Uses AssemblyAI to transcribe audio content and save it in a text file, organized by date. View download_transcript.py
+download_transcript.py: 
+
+Uses AssemblyAI to transcribe audio content and save it in a text file, organized by date. View download_transcript.py
+
+
 train.py: Demonstrates setting up a document retrieval system using pre-trained embeddings and vector-based similarity searches. View train.py
 secret_config.py: Manages loading of secrets like API keys for secure communication. View secret_config.py
 transcript_folder/: Directory containing sample transcripts.
